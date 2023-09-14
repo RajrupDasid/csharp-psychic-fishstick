@@ -29,6 +29,18 @@ namespace Variables
             Console.WriteLine(oneletter);
             Console.WriteLine(extranumber);
 
+            // Display Varibles
+            // The WriteLine() method is often used to display variable values to the console window.
+            //To combine both text and a variable, use the + character:
+
+            string name = "John";
+            Console.WriteLine("Hello " + name);
+            string firstName = "John ";
+            string lastName = "Doe";
+            string fullName = firstName + lastName;
+            Console.WriteLine(fullName);
+
+
         }
     }
 }
